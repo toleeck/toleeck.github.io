@@ -3,28 +3,30 @@
 # set up your website you should go through all these settings and edit them, but after
 # the initial set up you won't need to come back to this file often.
 
-# --- Required options --- #
-
 # Name of website
-title: My Website
+title: Заметки
+
+# Short description of your site
+description: Мысли вслух. Системное администрирование как хобби.
 
 # Your name to show in the footer
-author: Some Person
+author: Anatoliy K.
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
+  Обо мне: "aboutme"
+  Доп ссылки:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - Some "notes": "https://toleeck.tumblr.com/"
+  Author's home: "https://toleeck.github.io"
+
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/tpb-140x140.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -39,10 +41,11 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "k.anatol@pm.me"
+#  facebook: deanattali
+  github: toleeck
+#  twitter: daattali
+  rss: true
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -55,7 +58,7 @@ social-network-links:
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
-#  telegram: yourname
+  telegram: tbk1945
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
@@ -72,11 +75,11 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
-  vk: false
+  vk: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "https://toleeck.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -126,13 +129,13 @@ footer-link-col: "#404040"
 # --- Web Analytics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "UA-169383032-1"
 
-# Fill in your Google Analytics ID to track your website using Google Analytics
-#google_analytics: ""
+# Fill in your Google Analytics ID to track your website using GA
+google_analytics: "UA-169383032-1"
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: "GTM-K7TBQZH"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
@@ -145,7 +148,7 @@ footer-link-col: "#404040"
 # --- Comments --- #
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-#disqus: ""
+disqus: "https-toleeck-github-io"
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
@@ -185,7 +188,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/Moscow"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -220,7 +223,7 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
- 
+
 remote_theme: daattali/beautiful-jekyll@5.0.0
 
 plugins:
