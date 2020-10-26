@@ -17,7 +17,6 @@ author: Anatoliy K.
 navbar-links:
   Обо мне: "aboutme"
   Доп ссылки:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Some "notes": "https://toleeck.tumblr.com/"
   Author's home: "https://toleeck.github.io"
 
@@ -229,7 +228,6 @@ remote_theme: daattali/beautiful-jekyll@5.0.0
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-feed
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

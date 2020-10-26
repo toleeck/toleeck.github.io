@@ -1,16 +1,15 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Обо мне
+subtitle: Немного обо мне
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Моя профессия очень слабо связана с системным администрированием и программированием, и никак не связана с производством алкоголя. Всё это хобби в свободное время.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### Об этом блоге
 
-What else do you need?
+Я попробую тут собрать некоторые заметки о своей домашней сети. Микротики, гипервизоры, микрокомпьютеры, медиацентры и всё в таком духе. Все настройки произвожу по чьим-то мануалам (сам даже команду, чтобы узнать версию ОС гуглю каждый раз). Я буду стараться не забывать оставлять ссылки на первоисточники.
 
-### My story
+И иногда про домашнее винокурение. Дневник, так сказать, чтобы записывать свои опыты.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Буду рад комментариям, замечаниям и критике.
